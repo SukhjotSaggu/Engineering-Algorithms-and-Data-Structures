@@ -1,0 +1,8 @@
+Sukhjot Saggu
+Lab 1
+Question 1:
+To so the integer array called data using the betterSort function I would use the following code:
+
+	betterSort(data, data[0], data[(sizeOf(data))-1]);
+
+This would allow me o us the signature used inthis lab to exploit th better sorting function.

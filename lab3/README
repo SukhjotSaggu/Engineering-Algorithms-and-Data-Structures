@@ -1,0 +1,32 @@
+Lab 3:
+
+1.I have completed both of the sorting methods Insertion Sort and Merge Sort. Both methods function correctly.
+
+2.Equations for Insertion Sort:
+	Best Case:
+		Copy: 2n
+		Swaps: 0
+		Comparison: n-1
+	Average Case:
+		Copy: (n(n-1)/2)+2n
+		Swaps: 0
+		Comparison: n(n-1)/2
+	Worst Case:
+		Copy: n(n-1)/2
+		Swaps: 0
+		Comparison: (n(n-1)/2)+2n
+
+  Equations for Merge Sort:
+	Best Case:
+		Copy: 0
+		Swaps: 0
+		Comparison: n log n
+	Average Case:
+		Copy: n-1
+		Swaps: 0
+		Comparison: n log n
+	Worst Case:
+		Copy: n-1
+		Swaps: 0
+		Comparison: n(log n)-2^(log n)+1
+	The number of Copy and Swap varys based on the inputed data for this sorting method

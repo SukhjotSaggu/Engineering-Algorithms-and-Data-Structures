@@ -1,0 +1,16 @@
+Q1. The initial invocation whould be:
+	towers(5,2,3)
+Then the first recusive step to towers() would be inkoked as:
+	towers(4,2,1)
+
+Q2. 5 recusive steps will have taken place before this first rcusive call actually retuns to the initial invocation.
+
+Q3. Once the first recusive call to tower() is made the statement printed to stdout will be:
+	2 3
+where 2 is the "from" tower and 3 is the "destination" tower.
+
+Q4. The second recusive step to towers() would be inkoked as:
+	towers(0,1,3)
+
+Question: Suppose that towers(8, 1, 2) is invoked. How many lines will be printed to stdout?
+	There will be 255 lines printed to stdout as (2^n)-1 movers are requried to move n number of disks between 2 give towers.

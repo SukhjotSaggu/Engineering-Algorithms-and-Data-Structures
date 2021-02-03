@@ -1,0 +1,25 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct state{
+	char name;
+}
+
+  int main(int argc, char * argv[])
+{
+	int parameter; /* better to use strtol */
+	char state;
+
+	state = 'D';
+	fprintf(stderr, "The current state is %c", state);
+
+	if((argc > 1)){
+		parameter = atoi(argv[0]);
+		if(parameter == 0){
+			state = 'G';
+			fprintf(stderr, "\nThe next state is %c", state);
+		}	
+	}
+    exit(0);
+}
+
